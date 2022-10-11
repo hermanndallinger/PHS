@@ -17,7 +17,7 @@ options(max.print=100)
 rm(list=ls()); gc()
 
 #------------------------------------------------------------------------------#
-setwd(paste(dirname(rstudioapi::getSourceEditorContext()$path), "/", sep=""))
+# setwd(paste(dirname(rstudioapi::getSourceEditorContext()$path), "/", sep=""))
 
 
 ## read data and prepare dataframes --------------------------------------------
